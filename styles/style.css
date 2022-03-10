@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@700&display=swap');
+.grayscale { filter: grayscale(100%); }
+:root{
+    --blue: #2646c3;
+}
+.title{
+    font-size: 50px;
+    margin-bottom: .1rem;
+    color: #3a5583;
+}
+
+.parg{
+    margin: 20px 0px;
+    color: rgb(151, 151, 151);
+}
+
+.parg p{
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    *margin-top: 40px;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.233);
+}
+
+.conainer__menu{
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4.3rem;
+}
+
+.menu__logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo p{
+    font-size: 24px;
+    color: var(--blue);
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 3rem;
+    margin-top: .6rem;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #979797;
+    
+}
+
+a.blue-button{
+    background-color: var(--blue);
+    border: none;
+    color: #fff !important;
+    font-size: 14px;
+    padding: .7rem 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: .3rem;
+}
+
+
+.part1{
+    height: 700px;
+}
+.background-p1{
+    background-image:
+    linear-gradient(
+      to right, 
+      #ffffff 50%,
+      #118fe4 50%
+    );
+}
+.part2{
+    height: 800px;
+    background-image: #fff;
+}
+.part3{
+    height: 800px;
+    background-image: conic-gradient( 
+      #fff 0deg, #fff 180deg,
+      #118fe4 180deg, #118fe4 270deg,
+      #fff 270deg, #fff 0deg
+    );
+}
+.part4{
+    height: 800px;
+    background-image:
+    conic-gradient( 
+      #fff 0deg, #fff 90deg,
+      #118fe4 90deg, #118fe4,180deg,
+      #fff 180deg, #fff 0deg
+    );
+}
+footer{
+    margin-top: 6rem;
+    width: 100%;
+    height: 350px;
+    background-color: #eef3ff;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 40px;
+    padding: 40px 40px 0px 40px;
+}
+
+.grid-container > div{
+    align-items: center;
+    text-align: center;
+}
+
+.col-2 img{
+    height: 100%;
+}
+
+
+.col-1 .content{
+    margin: 40px 40px 0px 40px;
+}
+
+.col-1 .content p{
+    text-align: left;
+}
+
+
+.grapper{
+    display: inline;
+    margin-right: 1.4em;
+}
+
+.icon{
+    display: inline !important;
+    font-size: 14px !important;
+    padding: .2rem .2rem .5rem .2rem;
+    margin: 0px .2rem 0 0rem;
+}
+.i-yellow{
+    background-color: #ffd01217;
+    color: #ffd012;
+}
+.i-blue{
+    color: #3454d2;
+    background-color: #3454d217;
+}
+.icons{
+    text-align: left;
+    font-size: 13px !important;
+    margin: 40px 0px
+}
+
+.border-white{
+    border: 1px;
+    border-radius: .2rem;
+    border-color: #fff;
+}
+
+.schedule{
+    text-align: left;
+}
+
+.schedule p{
+    display: inline;
+}
+
+.icons p{
+    display: inline;
+}
+
+.scheduler{
+    margin-top: 40px;
+    border-radius: .3em;
+    width:130%;
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 2em;
+    box-shadow: 1px 82px 400px -60px #3a5583;
+}
+
+.scheduler .camp input{
+    text-decoration: none;
+    border: 0;
+    font-size: 16px;
+    width: 8rem;
+    padding-top: .3rem;
+}
+
+.scheduler .camp{
+    display: inline;
+}
+
+.scheduler table{
+    display: inline !important;
+}
+
+.scheduler .camp label{
+    font-size: 12px;
+    color: #3a5583;
+}
+
+.scheduler .camp a{
+    margin-top: .6rem;
+    padding: 0.6rem 1.9rem;
+}
+
+.scheduler .camp input:focus{
+    outline: none;
+}
+
+.head{
+    margin-top: 0;
+}
+
+.head .head__container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 20px 0px 20px 80px;
+}
+
+.head .head__container > div{
+    display: inline;
+}
+
+.head .head__container img{
+    width: 70%;
+    color: #979797;
+    opacity: .30;
+    padding: 20px 0;
+}
+
+.part2 .main .container {
+    margin: 40px 80px;
+}
