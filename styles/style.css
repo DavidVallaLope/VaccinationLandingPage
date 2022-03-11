@@ -117,20 +117,27 @@ a.blue-button{
       #118fe4 50%
     );
 }
+
 .part2{
     height: 800px;
     background-image: #fff;
 }
-.part3{
-    height: 800px;
+.background-p3{
     background-image: conic-gradient( 
       #fff 0deg, #fff 180deg,
       #118fe4 180deg, #118fe4 270deg,
       #fff 270deg, #fff 0deg
     );
 }
+.part3{
+    height: 800px;
+    
+}
 .part4{
     height: 800px;
+}
+
+.background-p4{
     background-image:
     conic-gradient( 
       #fff 0deg, #fff 90deg,
@@ -138,8 +145,8 @@ a.blue-button{
       #fff 180deg, #fff 0deg
     );
 }
+
 footer{
-    margin-top: 6rem;
     width: 100%;
     height: 350px;
     background-color: #eef3ff;
@@ -161,6 +168,9 @@ footer{
     height: 100%;
 }
 
+.col-1 img{
+    height: 100%;
+}
 
 .col-1 .content{
     margin: 40px 40px 0px 40px;
