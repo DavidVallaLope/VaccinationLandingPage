@@ -12,6 +12,10 @@
     margin: 1rem 0;
 }
 
+.mini-text{
+    font-size: 10px;
+}
+
 :root{
     --blue: #2646c3;
 }
@@ -20,6 +24,12 @@
     margin-bottom: .1rem;
     color: #3a5583;
 }
+.sub-title{
+    font-size:30px;
+    margin-bottom: .1rem;
+    color: #3a5583;
+}
+
 
 .parg{
     margin: 20px 0px;
@@ -131,10 +141,11 @@ a.blue-button{
 }
 .part3{
     height: 800px;
-    
+    margin-bottom: 12rem;
 }
 .part4{
-    height: 800px;
+    height: 700px;
+    margin-bottom: 8rem;
 }
 
 .background-p4{
@@ -157,6 +168,7 @@ footer{
     grid-template-columns: 50% 50%;
     grid-gap: 40px;
     padding: 40px 40px 0px 40px;
+    height: 100%;
 }
 
 .grid-container > div{
@@ -173,10 +185,18 @@ footer{
 }
 
 .col-1 .content{
-    margin: 40px 40px 0px 40px;
+    margin: 0px 40px 0px 40px;
 }
 
 .col-1 .content p{
+    text-align: left;
+}
+
+.col-2 .content{
+    margin: 0px 40px 0px 40px;
+}
+
+.col-2 .content p{
     text-align: left;
 }
 
@@ -196,6 +216,13 @@ footer{
 .big-icon{
     font-size: 36px !important;
     padding: .4rem .4rem .4rem .4rem;
+}
+
+.reg-icon{
+    font-size: 18px !important;
+    display: inline !important;
+    padding: .4rem;
+    margin: 2rem .4rem;
 }
 .i-yellow{
     background-color: #ffd01217;
@@ -312,4 +339,39 @@ footer{
     border: 2px solid #97979715;
     max-width: 15rem;
     border-radius: .6rem;
+}
+
+.element-card{
+    border: 2px solid #97979710;
+    border-radius: .6rem;
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.main-element >  p{
+    display: inline;
+    max-width: 60%;
+    margin: auto auto auto 0;
+}
+
+.main-element{
+    margin: .9rem;
+}
+
+.main-element > .right{
+    margin: auto;
+}
+
+.main-element #toggle:hover{
+    cursor: pointer;
+}
+
+.hidden-text{
+    margin: 1rem 4rem;
+}
+
+.right{
+    text-align: right;
+    display: block;
+    float: right;
 }
