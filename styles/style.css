@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@700&display=swap');
 .grayscale { filter: grayscale(100%); }
+
+.gray{color: rgb(151, 151, 151);}
+
+.normal-text{
+    font-size: 12px;
+}
+
+.subtext{
+    font-size: 18px;
+    margin: 1rem 0;
+}
+
 :root{
     --blue: #2646c3;
 }
@@ -170,6 +182,11 @@ footer{
     padding: .2rem .2rem .5rem .2rem;
     margin: 0px .2rem 0 0rem;
 }
+
+.big-icon{
+    font-size: 36px !important;
+    padding: .4rem .4rem .4rem .4rem;
+}
 .i-yellow{
     background-color: #ffd01217;
     color: #ffd012;
@@ -186,7 +203,7 @@ footer{
 
 .border-white{
     border: 1px;
-    border-radius: .2rem;
+    border-radius: .4rem;
     border-color: #fff;
 }
 
@@ -208,6 +225,10 @@ footer{
     width:130%;
     background-color: rgba(255, 255, 255, 0.90);
     padding: 2em;
+    *box-shadow: 1px 82px 400px -60px #3a5583;
+}
+
+.shadow{
     box-shadow: 1px 82px 400px -60px #3a5583;
 }
 
@@ -245,16 +266,20 @@ footer{
     margin-top: 0;
 }
 
-.head .head__container{
+.head__container{
     display:grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     padding: 20px 0px 20px 80px;
 }
 
-.head .head__container > div{
+.head__container > div{
     display: inline;
 }
+
+
+
+
 
 .head .head__container img{
     width: 70%;
@@ -265,4 +290,16 @@ footer{
 
 .part2 .main .container {
     margin: 40px 80px;
+}
+
+.part2 .foot .head__container{
+    margin: 40px 0px;
+}
+
+.part2 .foot .head__container .box{
+    display: inline;
+    padding: 20px 20px 60px 20px;
+    border: 2px solid #97979715;
+    max-width: 15rem;
+    border-radius: .6rem;
 }
