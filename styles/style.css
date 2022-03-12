@@ -2,6 +2,7 @@
 .grayscale { filter: grayscale(100%); }
 
 .gray{color: rgb(151, 151, 151);}
+.blue-grey{color: rgb(44, 93, 150);}
 
 .normal-text{
     font-size: 12px;
@@ -10,6 +11,10 @@
 .subtext{
     font-size: 18px;
     margin: 1rem 0;
+}
+
+.m2-text{
+    font-size: 12px;
 }
 
 .mini-text{
@@ -113,6 +118,7 @@ a.blue-button{
     text-decoration: none;
     display: inline-block;
     border-radius: .3rem;
+
 }
 
 
@@ -315,9 +321,6 @@ footer{
 }
 
 
-
-
-
 .head .head__container img{
     width: 70%;
     color: #979797;
@@ -374,4 +377,71 @@ footer{
     text-align: right;
     display: block;
     float: right;
+}
+
+
+
+.reverse-blue-button{
+    background-color: #f1f5ff;
+    border: none;
+    color: var(--blue) !important;
+    font-size: 14px;
+    padding: .7rem 1.4rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: .3rem;
+    width: 100%;
+}
+
+.extended{
+    width: 200%;
+    margin: .9rem;
+}
+
+.mai {grid-area: main; }
+.ico {grid-area: icon; }
+.titl {grid-area: title; }
+.defe {grid-area: defe; }
+
+.cardbox .super-box .box{
+    display: grid;
+    grid-template-areas:
+        'icon title'
+        'main main';
+    gap: .9rem;
+    padding: 10px;
+    margin: .9rem;
+    width: 90%;
+}
+
+.titl{
+    grid-column: span 2;
+}
+
+.cardbox .super-box .box > div {
+    text-align: left;
+}
+
+.card1{grid-area: card1; }
+.card2{grid-area: card2; }
+.card3{grid-area: card3; }
+.card4{grid-area: card4; }
+
+.cardbox{
+    margin: 160px 0px 0px 0px;
+    display: grid;
+    grid-template-areas: 
+        'card1 card2'
+        'card3 card4';
+    gap: .9rem;
+    width: 100%;
+}
+
+.cardbox > div{
+    text-align: left;
+}
+
+.super-box {
+    text-align: center;
 }
